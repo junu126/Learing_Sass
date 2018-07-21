@@ -1,33 +1,37 @@
+$bg-color : #00f;
+$color-yellow : #ff0;
+$color-red : #f00;
+
 body {
     background-color: #ddd;
 }
 
 #box1 {
-    color : #ff0;
-    background-color: #00f;
+    color : $color-yellow;
+    background-color: $bg-color;
     width: 100px;
 }
 
 #box2 {
-    color : #f00;
-    background-color: #00f;
+    color : $color-red;
+    background-color: $bg-color;
     width: 100px;
 }
 
 #box3 {
-    color : #ff0;
-    background-color: #00f;
+    color : $color-yellow;
+    background-color: $bg-color;
     width: 300px;
 }
 
 #box4 {
-    color : #f00;
-    background-color: #00f;
+    color : $color-red;
+    background-color: $bg-color;
     width: 300px;
 }
 
 #box5 {
-    color : #ff0;
-    background-color: #00f;
+    color : $color-yellow;
+    background-color: $bg-color;
     width: 500px;
 }
