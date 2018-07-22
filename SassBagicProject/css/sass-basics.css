@@ -26,6 +26,11 @@ a {
           box-shadow: 0px 3px 11px 0px rgba(0, 0, 0, 0.75);
 }
 
+#box1-title {
+  font-style: italic;
+  text-decoration: underline;
+}
+
 #box1 > a {
   color: #a22;
   text-decoration: none;
