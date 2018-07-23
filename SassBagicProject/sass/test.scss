@@ -1,0 +1,6 @@
+@import "partial/mixin";
+@import "partial/extend";
+
+#test {
+    @include fontSizebgColor(40px, #f999);
+}
