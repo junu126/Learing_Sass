@@ -1,0 +1,11 @@
+{
+    "version": 3,
+    "mappings": "AAGA,AAAA,KAAK,CAAC;ECDF,SAAS,EDEgB,IAAI;ECD7B,gBAAgB,EDCe,KAAK;CACvC",
+    "sources": [
+        "../sass/test.scss",
+        "../sass/partial/_mixin.scss",
+        "../sass/partial/_extend.scss"
+    ],
+    "names": [],
+    "file": "test.css"
+}
