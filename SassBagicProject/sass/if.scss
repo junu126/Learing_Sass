@@ -1,0 +1,27 @@
+//mixin
+@mixin ftColorbgColor($ftcolor, $bgColor) {
+    color: $ftcolor;
+    background-color: $bgColor;
+}
+
+@mixin tema($style) {
+    @if $style == 'common' {
+        @include ftColorbgColor(#fff, black );
+    }
+    @else if $style == 'dark' {
+        @include ftColorbgColor(#000, #fff );
+    }
+    @else {
+        @include ftColorbgColor(#124a, #f31 );
+    }
+}
+
+#box1 {
+    @include tema('common')
+}
+#box2 {
+    @include tema('dark')
+}
+#box3 {
+    @include tema('abcdefg')
+}
