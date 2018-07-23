@@ -1,0 +1,10 @@
+// Mixin
+@mixin fontSizebgColor($fontSize, $bgColor) {
+    font-size: $fontSize;
+    background-color: $bgColor;
+  }
+  
+  @mixin colorDecoretion($color, $deco) {
+    color : $color;
+    text-decoration: $deco;
+  }
