@@ -1,0 +1,41 @@
+@import "abstrates/var";
+@import "abstrates/mixes";
+
+body {
+  font-family: sans-serif;
+  margin: 0;
+  background-color: $color-graylight;
+}
+
+.box {
+  @include width-height-padding(300px, 300px, 20px);
+  @include middle();
+
+  &,
+  &-inner {
+    border: 3px solid $border-color;
+  }
+
+  &-inner {
+    padding: 10px;
+    width: initial;
+    height: 40px;
+    background-color: $color-gray;
+
+    &-title {
+      font-size: 20px;
+      color: $color-white;
+      background-color: rgba($color-black, 0.5);
+    }
+  }
+
+  @include mq("big-desktop") {
+    border: 10px solid $border-color;
+  }
+  @include mq("iped") {
+    border: 6px solid $border-color;
+  }
+  @include mq("phone") {
+    border: none;
+  }
+}
